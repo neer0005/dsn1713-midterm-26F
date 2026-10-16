@@ -2,12 +2,25 @@
 
 /* Set custom variables here */
 
+:root{
 
+  --dd-green: #2e483a;
+  --dd-green-rgb: 46, 72, 58;
+
+  --bs-primary: var(--dd-green);
+  --bs-primary-rgb: var(--dd-green-rgb);
+  
+
+
+}
 
 
 
 .navbar-brand {
   color: #F6F3ED;
+  width: 30px;
+
+
 }
 
 body {
@@ -29,7 +42,9 @@ h1, h2, h3 {
 
 #hero .d-flex {
   height: 800px;
+
 }
+
 
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
