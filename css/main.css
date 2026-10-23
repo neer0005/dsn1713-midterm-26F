@@ -6,14 +6,40 @@
 
   --dd-green: #2e483a;
   --dd-green-rgb: 46, 72, 58;
-
+  --dd-cream: #F6F3ED;
+  --dd-cream-rgb: 246, 243, 237;
   --bs-primary: var(--dd-green);
   --bs-primary-rgb: var(--dd-green-rgb);
+  --bs-tertiary: var(--dd-cream);
+  --bs-tertiary-bg-rgb: var(--dd-cream-rgb);
+  --bs-body-bg: var(--dd-cream);
+  --bs-border-color: var(--dd-green); 
+  --bs-border-color-rgb: var(--dd-green-rgb);
+  --dd-light-grey: #c8c7c5;
+  --bs-light: var(--dd-cream);
+  --bs-light-rgb: var(--dd-cream-rgb); 
+  
+}
   
 
+.btn {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+ .accordion {
+  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-border-color: var(--dd-light-grey); 
+ }
+
+ ul {
+  list-style-type: none;
+
+ }
+ 
+.text-light {
+  color: var(--dd-cream);
 
 }
-
 
 
 .navbar-brand {
@@ -25,6 +51,7 @@
 
 body {
   font-family: "Sarala", sans-serif;
+  background-color: var(--bs-tertiary);
 }
 
 h1, h2, h3 {
